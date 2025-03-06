@@ -37,8 +37,8 @@ class WLQMC:
         self.ntimes  = ntimes
         self.tsample = tsample
         self.w       = w
-        self.lE      = []    #每第1000步时的能量
-        self.lw      = []    #每1000步的w[1]平均
+        self.lE      = []    #每1000步的能量总和
+        self.lw      = []    #每1000步的取样个数
         self.lcheck  = []    #用于检测E分布是否为正态分布
         self.E_ave   = 0
         self.w_ave   = 0
